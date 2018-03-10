@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("img/background.jpg");
+}
+
+.game {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.info {
+    width: 250px;
+    height: 500px;
+    padding: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 20px black;
+    float: left;
+    background: rgba(247, 247, 247, 0.7);
+    border-radius: 10px;
+}
+
+.info p {
+    margin-top: 5px;
+}
+
+.info span, .info img {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.info_img {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.board {
+    width: 210px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+    background: rgba(247, 247, 247, 0.7);
+    border-radius: 10px;
+    float: left;
+}
+
+.info_pause {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    top: 180px;
+    text-align: center;
+    line-height: 50px;
+    background: rgba(207, 200, 117, 0.5);
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.info_pause span {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+
+.board_conteiner {
+    width: 200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+.rows {
+    width: 200px;
+    height: 20px;
+}
+
+.cell {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    float: left;
+    outline: 1px solid black;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.buttons {
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.start img, .pause img, .stop img {
+    width: 50px;
+    padding: 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.preview {
+    width: 120px;
+    height: 120px;
+}
+
+.stat {
+    width: 120px;
+    height: 500px;
+    margin-left: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+    background: rgba(247, 247, 247, 0.7);
+    border-radius: 10px;
+    float: left;
+}
+
+.lines, .level, .score {
+    width: 120px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.lines>p, .level>p, .score>p {
+    text-align: center;
+}
+

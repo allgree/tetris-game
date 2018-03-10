@@ -1,0 +1,20 @@
+{
+  "name": "tetris",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-core": "^2.8.0"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "^2.1.1"
+  }
+}
